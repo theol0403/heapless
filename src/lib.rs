@@ -87,6 +87,7 @@
 
 pub use binary_heap::BinaryHeap;
 pub use deque::Deque;
+pub use deque::Iter as DequeIter;
 pub use histbuf::{HistoryBuffer, OldestOrdered};
 pub use indexmap::{
     Bucket, Entry, FnvIndexMap, IndexMap, Iter as IndexMapIter, IterMut as IndexMapIterMut,
